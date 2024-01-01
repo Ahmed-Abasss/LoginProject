@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+:root{
+    --main-color:#24353F;
+    --text-color:#17A2B8
+}
+
+body
+{
+    background-color: var(--main-color);
+}
+
+
+nav{
+    background-color: #202e36 !important;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.281);
+}
+
+h1
+{
+    color:var(--text-color) ;
+}
+
+#cont{
+    width: 100%;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+}
